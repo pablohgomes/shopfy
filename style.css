@@ -67,10 +67,26 @@ button {
 
 .carrinho{
     width: 400px;
-
     position: absolute;
     left: 600px;
     top: 350px;
     
+}
 
+main{
+
+padding: 140px;
+padding-top: 0;
+
+}
+.container{
+    display: flex;
+    
+}
+.container p{
+color: darkgrey;
+}
+.apoio{
+    background-position: center;
+    background-color: aqua;
 }
