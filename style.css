@@ -1,20 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+  
 }
+
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
 }
 
 .fundoVerde {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22661.1%22%20viewBox%3D%220%200%201440%20661.1%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20rgb%280%2C%20128%2C%2096%29%20%21important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%22rgb%280%2C%20128%2C%2096%29%22%20d%3D%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22%2F%3E%3C%2Fsvg%3E");
     background-position: center top;
     background-repeat: no-repeat;
-    position: relative;
-    height: 800px;
-    width: 100%
+    width: 100%;
+   
+
 }
 
 .logob {
@@ -22,12 +25,12 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    height: 49px;
+    height: 80px;
     width: 150px;
-    ;
     right: 46%;
-    margin: 10px;
-    line-height: 20px;
+    margin: 5px;
+
+    
 }
 
 .txt1 {
@@ -36,19 +39,9 @@ body {
     font-size: 30px;
     transform: translate(0px, 50px);
     color: white;
-    line-height: 50px;
+    line-height: 40px;
+    padding: 20px;
 
-}
-
-.try {
-    font-size: small;
-    line-height: 20px;
-    font-size: 12px;
-}
-
-p {
-
-    font-size: x-large;
 }
 
 input {
@@ -56,61 +49,79 @@ input {
     height: 30px;
     border-radius: 5px;
     border: none;
+    margin: 15px;
 
 }
-
 .start1 {
     width: 100px;
     height: 30px;
     color: white;
     background-color: black;
     border-radius: 5px;
-    border: none;
-}
-
-.carrinho{
-    width: 400px;
-    position: absolute;
-    left: 600px;
-    top: 350px;
     
 }
 
-main{
-
-padding: 140px;
-padding-top: 0;
-align-items: center;
+.try {
+    line-height: 15px;
+    font-size: 12px;
 
 }
+
+.carrinho img{
+    margin: 15%;
+    margin-top: 10%;
+    padding-left: 25%;
+    width: 20%;
+    height: auto;
+   
+
+    
+}
+
+p {
+
+    font-size: x-large;
+}
+
+
 .container{
+    position: absolute;
     display: flex;
+    margin: 15%;
+    width: 70%;
+    top: 500px;
+    margin-left: 15%;
+    
+
+
     
 }
 .container p{
 color: darkgrey;
 }
 
-.apoioimg{
-    padding: 140px;
-    padding-top: 10px;
-    position: center;
+.apoio1 img{
+    margin: 10%;
+    align-items: center;
+    width: 80%;
+    
 }
 .apoio1{
-    font-size: larger;
+    
     text-align: center;
-}
-
-.btverde{
-align-items: center;
-position: relative;
-top: 30;
-left: 600px;
-width: 200px;
-padding: 30px;
 
 }
+
 .start2{
+    align-items: center;
+  
+    text-align: center;
+    line-height: 10;
+}
+
+
+.start2 button{
+    align-items: center;
     width: 140px;
     height: 30px;
     color: white;
@@ -125,7 +136,7 @@ padding: 30px;
     color: rgb(5, 116, 38)
 }
 .options{
-    
+    margin: 3%;
     height: 500px;
     background-color: rgb(249, 249, 248);
     justify-content: center;
@@ -137,4 +148,9 @@ padding: 30px;
    padding-right: 200px;
    font-size: large;
    font-display: inline;
+   line-height: 50px;
+}
+footer{
+    padding-left: 80%;
+    color: rgb(5, 116, 38);
 }
